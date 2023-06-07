@@ -1,0 +1,105 @@
+/* Codes for Body tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    Background: #777;
+    color: #777;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Codes for Section tag */
+section {
+    width: 495px;
+}
+/* Codes for Article tag */
+article {
+    background-color: #777;
+    color: #ebebee;
+    width: 90%;
+    height: 70%;
+    margin-left: 25px;
+}
+
+/* Codes for Section tag */
+aside { 
+    float: right;
+    width: 465px;
+    margin-bottom: 20px;
+    border-left: 20px solid #777;
+}
+
+/* Group coding */
+h2,
+#second_paragraph {
+    background-color: #ebebee;
+    color: #777;
+    width: 90%;
+    margin: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section,
+aside {
+    box-sizing: border-box;
+    height: 300px;
+}
+
+section,
+article,
+aside {
+    padding-top: 10px;
+}
+
+nav,
+section {
+    float: left;
+}
+
+header,
+nav {
+    margin-top: 10px;
+}
+
+section,
+aside,
+footer {
+    margin-top: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+    background-color: #ebebee;
+}
+
+header,
+nav,
+footer {
+    width: 960px;
+    height: 100px;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    padding-top: 10px;
+}
+
+
+
+
+
+
